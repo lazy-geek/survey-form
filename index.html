@@ -27,6 +27,7 @@
                 <label for="age" id="number-label">Age</label>
                 <input type="number" name="age" id="number" min="1" max="99" placeholder="Enter Your Age">
             </div>
+
             <div class="form-group">
                 <label for="occupation">Choose A Role That Best Describes You</label>
                 <select name="occupation" id="dropdown">
@@ -38,6 +39,15 @@
                     <option value="other">Other</option>
                 </select>
             </div>
+
+            <div class="form-group">
+                <label for="rating">Would You Recommend Our Product To A Friend ?</label>
+                <span><input type="radio" name="rating" value="never"> Never </span>
+                <span><input type="radio" name="rating" value="maybe"> Maybe </span>
+                <span><input type="radio" name="rating" value="likely"> Likely </span>
+                <span><input type="radio" name="rating" value="definitely"> Definitely </span>
+            </div>
+
         </form>
     </main>
 </body>
