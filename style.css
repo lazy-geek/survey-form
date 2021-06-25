@@ -72,14 +72,14 @@ textarea {
 }
 
 [type="checkbox"], [type="radio"] {
-    margin: 0;
+    margin: 0 8px 0 0;
     box-sizing: border-box;
     min-width: 15px;
     min-height: 15px;
 }
 
 span {
-    display: block;
+    display: flex;
     margin: 8px;
     margin-left: 0;
 }
