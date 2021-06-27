@@ -79,13 +79,32 @@ textarea {
     min-height: 18px;
 }
 
-span {
-    display: flex;
-    margin: 8px;
-    margin-left: 0;
-    font-size:16px;
+
+
+/*hide the original checkbox*/
+[type="checkbox"] {
+    opacity: 0;
+    pointer-events: none;
 }
 
+.radio-group, .checkbox-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+[type="radio"]+label {
+    margin: 0 5px 0 0;
+    font-size: 16px;
+}
+
+[type="checkbox"]+label {
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+}
 textarea {
     width: 100%;
     box-sizing: border-box;
