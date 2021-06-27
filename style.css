@@ -68,7 +68,7 @@ textarea {
     display: block;
 }
 
-[type="checkbox"] + label>span, [type="radio"] + label>span {
+[type="checkbox"] + label>span, [type="radio"] + label {
     font-size: 16px;
 }
 
@@ -216,7 +216,7 @@ button {
     #name, #email, #number, #dropdown, textarea {
         font-size: 13px;
     }
-    [type="radio"]+label, [type="checkbox"]+label {
+    [type="radio"]+label, [type="checkbox"]+label > span {
         font-size: 13px;
     }
 }
