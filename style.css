@@ -201,22 +201,22 @@ button {
 }
 
 @media (max-width: 460px) {
-  main {
-    max-width: 280px;
-  }
-  h1 {
-    font-size: 32px;
-  }
-  
-  #description {
-    font-size: 15px;
-  }
- 
-  form {
-    font-size: 18px;
-  }
-  
-  #name, #email, #number, #dropdown , textarea , span {
-    font-size: 13px;
-  }
+    main {
+        max-width: 280px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    #description {
+        font-size: 15px;
+    }
+    form {
+        font-size: 18px;
+    }
+    #name, #email, #number, #dropdown, textarea {
+        font-size: 13px;
+    }
+    [type="radio"]+label, [type="checkbox"]+label {
+        font-size: 13px;
+    }
 }
