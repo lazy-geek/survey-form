@@ -214,9 +214,9 @@ button {
         font-size: 18px;
     }
     #name, #email, #number, #dropdown, textarea {
-        font-size: 13px;
+        font-size: 15px;
     }
     [type="radio"]+label, [type="checkbox"]+label > span {
-        font-size: 13px;
+        font-size: 15px;
     }
 }
