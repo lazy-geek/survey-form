@@ -105,6 +105,20 @@ textarea {
     position: relative;
     cursor: pointer;
 }
+
+/* this is the custom box for the checkbox*/
+[type="checkbox"]+label::before {
+    content: '';
+    min-width: 18px;
+    min-height: 18px;
+    position: absolute;
+    left: -26px;
+    border-radius: 3px;
+    /* top: 5px; */
+    background-color: #eee;
+    transition: all 0.4s;
+
+}
 textarea {
     width: 100%;
     box-sizing: border-box;
