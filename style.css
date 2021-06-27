@@ -68,11 +68,15 @@ textarea {
     display: block;
 }
 
+[type="checkbox"] + label>span, [type="radio"] + label>span {
+    font-size: 16px;
+}
+
 [type="checkbox"], [type="radio"] {
     margin: 0 8px 0 0;
     box-sizing: border-box;
-    min-width: 15px;
-    min-height: 15px;
+    min-width: 18px;
+    min-height: 18px;
 }
 
 span {
