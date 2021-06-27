@@ -161,6 +161,18 @@ textarea {
     stroke-dashoffset: 70;
     transition: stroke-dashoffset 0.4s;
 }
+
+/* change the color of custom checkbox when the original checkbox is in checked state */
+[type="checkbox"]:checked+label::before {
+    background-color: #4dd0e1;
+}
+
+
+/* setting stroke-dashoffset to 0 will reveal the hidden checkmark */
+[type="checkbox"]:checked+label svg polyline {
+    stroke-dashoffset: 0;
+}
+
 textarea {
     width: 100%;
     box-sizing: border-box;
