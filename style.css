@@ -35,7 +35,6 @@ form {
     font-size: 22px;
 }
 
-
 #name, #email, #number, #dropdown {
     outline: none;
     width: 100%;
@@ -48,10 +47,6 @@ form {
 
 #dropdown, option {
     outline: none;
-}
-
-label {
-    display: block;
 }
 
 select {
@@ -68,8 +63,9 @@ textarea {
 }
 
 .form-group>label {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: #002f6c;
+    display: block;
 }
 
 [type="checkbox"], [type="radio"] {
