@@ -41,18 +41,57 @@
 
             <div class="form-group">
                 <label for="rating">Would You Recommend Our Product To A Friend ?</label>
-                <span><input type="radio" name="rating" value="never"> Never </span>
-                <span><input type="radio" name="rating" value="maybe"> Maybe </span>
-                <span><input type="radio" name="rating" value="likely"> Likely </span>
-                <span><input type="radio" name="rating" value="definitely"> Definitely </span>
+                <div class="radio-group">
+                    <input type="radio" name="rating" id="never" value="never"><label for="never"> Never </label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" name="rating" id="maybe" value="maybe"><label for="maybe"> Maybe </label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" name="rating" id="likely" value="likely"><label for="likely"> Likely </label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" name="rating" id="definitely" value="definitely"><label for="definitely">
+                        Definitely
+                    </label>
+                </div>
             </div>
 
             <div class="form-group">
                 <label for="liked">Select Things That You Liked About Our Product</label>
-                <span><input type="checkbox" name="liked" value="ui"> UI </span>
-                <span><input type="checkbox" name="liked" value="features"> Features </span>
-                <span><input type="checkbox" name="liked" value="service"> Service </span>
-                <span><input type="checkbox" name="liked" value="simpleness"> Simpleness </span>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="liked" id="ui" value="ui"><label for="ui">
+                        <svg class="check-mark-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                            <polyline class="check-mark-svg-path" points="25.5,53.5 39.5,67.5 72.5,34.5 " />
+                        </svg>
+                        <span>UI</span>
+                    </label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="liked" id="features" value="features"><label for="features">
+                        <svg class="check-mark-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                            <polyline class="check-mark-svg-path" points="25.5,53.5 39.5,67.5 72.5,34.5 " />
+                        </svg>
+                        <span>Features</span>
+                    </label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="liked" id="service" value="service"><label for="service">
+                        <svg class="check-mark-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                            <polyline class="check-mark-svg-path" points="25.5,53.5 39.5,67.5 72.5,34.5 " />
+                        </svg>
+                        <span>Service</span>
+                    </label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="liked" id="simpleness" value="simpleness"><label for="simpleness">
+                        <svg class="check-mark-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                            <polyline class="check-mark-svg-path" points="25.5,53.5 39.5,67.5 72.5,34.5 " />
+                        </svg>
+
+                        <span>Simpleness</span>
+                    </label>
+                </div>
             </div>
 
             <div class="form-group">
