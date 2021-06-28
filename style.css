@@ -68,7 +68,7 @@ textarea {
     display: block;
 }
 
-[type="checkbox"] + label>span, [type="radio"] + label {
+[type="checkbox"]+label>span, [type="radio"]+label {
     font-size: 16px;
 }
 
@@ -109,6 +109,7 @@ textarea {
 }
 
 /* this is the custom box for the checkbox*/
+
 [type="checkbox"]+label::before {
     content: '';
     min-width: 18px;
@@ -119,10 +120,10 @@ textarea {
     /* top: 5px; */
     background-color: #eee;
     transition: all 0.4s;
-
 }
 
 /* custom checkmark made using only css*/
+
 /* 
 [type="checkbox"]+label::after {
     content: '';
@@ -141,23 +142,26 @@ textarea {
 */
 
 /* this will unhide the custom checkmark */
+
 /* [type="checkbox"]:checked +label::after {
     min-width: 5px;
     min-height: 10px;
 } */
 
 /* this is the svg for the checkmark */
+
 [type="checkbox"]+label svg {
     position: absolute;
     width: 28px;
-    left: -30px;
+    left: -31px;
     top: -5px;
 }
 
 /* this is the polyline for the checkmark svg */
+
 [type="checkbox"]+label svg polyline {
     stroke: white;
-    stroke-width: 5;
+    stroke-width: 8;
     fill: none;
     stroke-dasharray: 70;
     stroke-dashoffset: 70;
@@ -165,12 +169,13 @@ textarea {
 }
 
 /* change the color of custom checkbox when the original checkbox is in checked state */
+
 [type="checkbox"]:checked+label::before {
     background-color: #4dd0e1;
 }
 
-
 /* setting stroke-dashoffset to 0 will reveal the hidden checkmark */
+
 [type="checkbox"]:checked+label svg polyline {
     stroke-dashoffset: 0;
 }
@@ -236,7 +241,7 @@ button {
     #name, #email, #number, #dropdown, textarea {
         font-size: 15px;
     }
-    [type="radio"]+label, [type="checkbox"]+label > span {
+    [type="radio"]+label, [type="checkbox"]+label>span {
         font-size: 15px;
     }
 }
