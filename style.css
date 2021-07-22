@@ -171,7 +171,7 @@ textarea {
 /* change the color of custom checkbox when the original checkbox is in checked state */
 
 [type="checkbox"]:checked+label::before {
-    background-color: #4dd0e1;
+    background-color: #191516;
 }
 
 /* setting stroke-dashoffset to 0 will reveal the hidden checkmark */
