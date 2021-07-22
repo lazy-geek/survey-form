@@ -222,7 +222,7 @@ button {
 
 /* fill circle with inset shadow when it is selected*/
 [type="radio"]:checked+label::before {
-    box-shadow: inset 0 0 0 6px #4dd0e1;
+    box-shadow: inset 0 0 0 6px #191516;
 }
 
 @media (max-width: 460px) {
