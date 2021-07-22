@@ -25,7 +25,7 @@ header {
 
 h1 {
     font-size: 40px;
-    color: #002f6c;
+    color: #191516;
     font-weight: bold;
 }
 
@@ -64,7 +64,7 @@ textarea {
 
 .form-group>label {
     margin-bottom: 8px;
-    color: #002f6c;
+    color: #191516;
     display: block;
 }
 
@@ -193,7 +193,7 @@ button {
     width: 100%;
     display: block;
     height: 40px;
-    background-color: #4dd0e1;
+    background-color: #191516;
     border: none;
     font-weight: bold;
     font-size: 20px;
