@@ -225,6 +225,12 @@ button {
     box-shadow: inset 0 0 0 6px #191516;
 }
 
+
+@media (max-width: 540px) {
+ main {
+        max-width: 380px;
+    }
+}
 @media (max-width: 460px) {
     main {
         max-width: 280px;
@@ -243,5 +249,42 @@ button {
     }
     [type="radio"]+label, [type="checkbox"]+label>span {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+ main {
+        max-width: 260px;
+        padding: 10px 30px 30px 40px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    #description {
+        font-size: 12px;
+    }
+    form {
+        font-size: 15px;
+    }
+    #name, #email, #number, #dropdown, textarea {
+        font-size: 12px;
+    }
+    [type="radio"]+label, [type="checkbox"]+label>span {
+        font-size: 12px;
+    }
+    button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+ main {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 280px) {
+ main {
+        max-width: 180px;
     }
 }
