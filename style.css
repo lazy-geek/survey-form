@@ -67,6 +67,7 @@ textarea {
     margin-bottom: 8px;
     color: #191516;
     display: block;
+    font-weight: 500;
 }
 
 [type="checkbox"]+label>span, [type="radio"]+label {
